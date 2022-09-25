@@ -1,0 +1,30 @@
+package javapro;
+import java.util.Scanner;
+
+
+public class EtkinlikOnerenProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Hava sıcaklığını al.
+		//Sıcaklık 30 veya daha yüksekse yüzme etkinliğini öner.
+		//5-30 sinemaya gitmeyi öner.
+		//4 veya daha az ise kayak yapmayı öner.
+		Scanner scan =new Scanner(System.in);
+		int sicaklik;
+		System.out.println("Hava sıcaklığını giriniz:");
+		sicaklik = scan.nextInt();
+		
+		if(sicaklik>=30) {
+			System.out.println("Yüzmeye gitmelisin...");
+		}
+		else if (sicaklik < 30 && sicaklik>5){
+			System.out.println("Sinemaya gitmelisin.....");
+		}
+		else {
+			System.out.println("Kayak yapmaya gitmelisin......");
+		}
+
+	}
+
+}
