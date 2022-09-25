@@ -1,0 +1,90 @@
+package javapro;
+import java.util.Scanner;
+
+
+public class WhileOrnekleri2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Örnek 1:Faktöriyel Hesaplama
+		//Örnek 2:Harmonik Sayılar
+		//Örnek 3:Yıldızlar ile Üçgen Yapma
+		//Örnek 4:Üslü sayı hesaplama
+		
+		Scanner scan=new Scanner(System.in);
+		//Örnek1
+		/*System.out.println("Faktöriyeli alınacak sayıyı giriniz:");
+		
+		
+		int f= scan.nextInt();
+		int sonuc=1;
+		
+		while(f>0) {
+			sonuc *= f;
+			f--;
+					
+			
+		}
+		
+			System.out.println(sonuc);*/
+		
+		
+		// Örnek2
+           /*System.out.println("Harmonik sayıyı giriniz:");
+           double h= scan.nextDouble();
+           double harmonic=0.0;
+           while(h>0) {
+        	   harmonic+=(1/h);
+        	   h--;
+        	   
+           }
+           System.out.println(harmonic);*/
+		//Örnek3
+		/*int star=scan.nextInt();
+		int i=1;
+		while(i<=star) {
+			int k=1;
+			while(k<=i) {
+				System.out.print("*");
+				k++;
+			}
+			System.out.println();
+			i++;*/
+		
+			int sayi1;
+			int sayi2;
+			int sonuc=1;
+			System.out.println("Üssü alıncak sayı");
+			sayi1=scan.nextInt();
+			System.out.println("Üs alınacak sayı");
+			sayi2=scan.nextInt();
+			int i=1;
+			while(i<=sayi2) {
+				sonuc=sonuc*sayi1;
+				i++;
+			}
+			System.out.println("Sonuç:"+sonuc);
+			 
+		}
+           
+		
+		
+
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+	
+		
+		
+
+	}
+
+
